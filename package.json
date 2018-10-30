@@ -1,6 +1,19 @@
 {
   "name": "@dot-store/log",
   "version": "0.1.0",
+  "description": "Logger for dot-store",
+  "keywords": [
+    "log",
+    "logger",
+    "dot-store"
+  ],
+  "author": "dot-store <oss@dot-store.io>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dot-store/log.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/dot-store/log#readme",
   "starters": [
     "basics",
     "babel",

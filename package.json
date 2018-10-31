@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/dot-store/log.git"
   },
+  "main": "dist/log.js",
   "license": "MIT",
   "homepage": "https://github.com/dot-store/log#readme",
   "starters": [
@@ -72,7 +73,6 @@
       "@babel/plugin-transform-runtime"
     ]
   },
-  "main": "dist/index.js",
   "scripts": {
     "build": "babel lib --out-dir dist --source-maps",
     "prepublishOnly": "rimraf dist; npm run build",

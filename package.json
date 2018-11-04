@@ -15,6 +15,10 @@
   "main": "dist/log.js",
   "license": "MIT",
   "homepage": "https://github.com/dot-store/log#readme",
+  "cyclops": {
+    "starter-tasks": {},
+    "version-tasks": {}
+  },
   "starters": [
     "basics",
     "babel",
@@ -27,9 +31,6 @@
     "jest-scripts",
     "watchman-babel"
   ],
-  "cyclops": {
-    "starter-tasks": {}
-  },
   "dependencies": {
     "@babel/runtime": "7.1.2",
     "dot-event": "^2.7.0",

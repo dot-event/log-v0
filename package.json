@@ -33,7 +33,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "7.1.2",
-    "dot-event": "2.7.0",
+    "dot-event": "2.8.0",
     "dot-store": "5.4.0",
     "tmp-promise": "1.0.5"
   },

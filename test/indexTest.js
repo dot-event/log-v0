@@ -21,12 +21,6 @@ test("logs events", async () => {
 
   log({ events, keep: false, store })
 
-  events.onAny(async ({ event }) => {
-    if (event.op !== "log") {
-      await events.log("any", { event })
-    }
-  })
-
   await events.emit("hello", "world")
   const out = await readFile(store.get("log.any.path"))
 

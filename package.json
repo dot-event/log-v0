@@ -16,6 +16,7 @@
   "license": "MIT",
   "homepage": "https://github.com/dot-store/log#readme",
   "cyclops": {
+    "git-tasks": {},
     "starter-tasks": {},
     "version-tasks": {}
   },

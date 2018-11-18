@@ -1,5 +1,5 @@
-# dot-log
+# dot-logger
 
-dot-event logging operation
+dot-event logger operation
 
-![logs](https://66.media.tumblr.com/117793b9fb72596a9a72f7611b0eb908/tumblr_nylfvsewAa1qgwu5ho1_500.gif)
+![logs](https://mir-s3-cdn-cf.behance.net/project_modules/disp/002a0340309933.577aa56587f37.gif)

@@ -1,21 +1,22 @@
 {
-  "name": "@dot-store/log",
+  "name": "dot-log",
   "version": "0.9.0",
-  "description": "Logger for dot-store",
+  "description": "dot-event logging operation",
   "keywords": [
+    "dot-event",
     "log",
     "logger",
-    "dot-store"
+    "operation"
   ],
-  "author": "dot-store <oss@dot-store.io>",
+  "author": "dot-event <oss@dot-event.io>",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dot-store/log.git"
+    "url": "git+ssh://git@github.com/dot-event/log.git"
   },
   "main": "dist/log.js",
   "license": "MIT",
-  "homepage": "https://github.com/dot-store/log#readme",
-  "cyclops": {
+  "homepage": "https://github.com/dot-event/log#readme",
+  "operations": {
     "git": {},
     "link": {},
     "starter": {},
@@ -35,8 +36,6 @@
   ],
   "dependencies": {
     "@babel/runtime": "7.1.2",
-    "dot-event": "2.9.0",
-    "dot-store": "5.5.0",
     "tmp-promise": "1.0.5"
   },
   "devDependencies": {
@@ -48,6 +47,8 @@
     "@babel/preset-env": "7.1.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.1",
+    "dot-event": "2.9.0",
+    "dot-store": "5.5.0",
     "eslint": "5.8.0",
     "eslint-config-prettier": "3.1.0",
     "eslint-plugin-prettier": "3.0.0",

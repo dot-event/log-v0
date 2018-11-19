@@ -1,4 +1,4 @@
-# dot-logger
+# @dot-event/log
 
 dot-event logger operation
 

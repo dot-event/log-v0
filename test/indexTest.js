@@ -14,7 +14,7 @@ test("logs text", async () => {
   dotStore({ events })
 
   await events.log("test", ["hello"])
-  const out = await readFile(events.get("test.log"))
+  const out = await readFile(events.get("test.logOpPath"))
 
   expect(out.toString()).toMatch(/hello/)
 })
@@ -26,7 +26,7 @@ test("logs events", async () => {
   dotStore({ events })
 
   await events.emit("hello", "world")
-  const out = await readFile(events.get("any.log"))
+  const out = await readFile(events.get("any.logOpPath"))
 
   expect(out.toString()).toMatch(/emit\thello\t"world"/)
 })

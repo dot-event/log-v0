@@ -1,6 +1,6 @@
 {
   "name": "@dot-event/log",
-  "version": "0.13.4",
+  "version": "0.13.5",
   "description": "dot-event logger operation",
   "keywords": [
     "dot-event",
